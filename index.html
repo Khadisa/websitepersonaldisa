@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dokument</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">Khadisa Aulia</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skill">Skill</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <button class="open-button" onclick="openModal()">Sign up</button>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+    <!-- Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h2>Login</h2>
+            <form class="form-container" action="your_server_endpoint.php" method="POST">
+                <div class="form-group">
+                    <label for="Nama">Nama:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="Alamat">Alamat:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="No.Hp">No.Hp:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="Kode Pos">Kode Pos:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                 <div class="form-group">
+                    <label for="Jenis Kelamin">Jenis Kelamin:</label>
+                    <input type="password" id="password" name="password" required>
+                </div> 
+                <div class="form-group">
+                    <label for="Agama">Agama:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <section id="Home">
+            <img src="picture.avif" width="400" height="400"/>
+            <div class="kolom">
+                <center>
+                <p class="deskripsi">HELLO EVERYONE!!</p>
+                <h2>Prestasi tidak diraih dengan instan,satu detik adalah hasiil tahun demi tahun  latihan. Satu tahun pencapaian adalah hasil detik demi detik perjuangan. Anda harus melakukan sesuatu yang anda pikir tak bisa anda lakukan</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ut?</p>
+                <p><a href="" class="tbl-pink">learn more</a></p>
+                </center>
+            </div>
+        </section>
+
+        <section id="About">
+            <div class="kolom">
+                <p class="deskripsi">HAI</p>
+                <H2>Perkenalkan nama saya Khadisa Aulia Sakina biasa dipanggil Disa,saya merupakan mahasiswa semester 3 jurusan Teknologi Komputer di ITSNU Pekalongan.Alasan saya membuat ini untuk memenuhi tugas desain web</H2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ut dolorum reprehenderit! Error doloribus repudiandae repellat molestiae, temporibus eius deserunt.</p>
+                <p><a href="" class="tbl-biru">learn more</a></p>
+            </div>
+            <img src="picture.avif" width="400" height="400">
+        </section>
+         
+        <section id="Skill" >
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top Skill</p>
+                    <h2>Skills</h2>
+                </div>
+            </div>
+
+            <div class="Skill-list">
+                <div class="kartu-skill">
+                    <img src="kenali5.png"/>
+                    <p> Mendessain</p>
+                </div>
+            </div>
+            <div class="Skill-list">
+                <div class="kartu-skill">
+                    <img src="download.jpg"/>
+                    <p>Coding</p>
+                </div>
+            </div>
+            <div class="Skill-list">
+                <div class="kartu-skill">
+                    <img src="30.jpg"/>
+                    <p> Bahasa Inggris</p>
+                </div>
+            </div>
+            <div class="Skill-list">
+                <div class="kartu-skill">
+                    <img src="62d7ca0ec7fcc718be213491_data analysis 2.png"/>
+                    <p>Analisis Data</p>
+                </div>
+            </div>
+        </section>
+        <!-- untuk contact-->
+        <footer>
+            <div id="Contact">
+                <div class="wrapper">
+                    <div class="footer">
+                        <div class="footer-section">
+                            <h3>Khadisa Aulia</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, consectetur.</p>
+                        </div>
+                        <div class="footer-section">
+                            <h3>About</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, consectetur.</p>
+                        </div>
+                        <div class="footer-section">
+                            <h3>Contact</h3>
+                            <p>Jl. Desa Karangdowo Kedungwuni</p>
+                            <p>Kode Pos 51173</p>
+                        </div>
+                        <div class="footer-section">
+                            <h3>Social</h3>
+                            <p><b>Instagram: </b>khdisaa</p>
+                            <p><b>WhatsaApp: </b>0857665430</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div id="copyright">
+            <div class="wrapper">
+                &copy; 2023. <b>Khadisa Aulia</b> All Rights Reserved.  
+            </div>
+        </div>
+
+        <script>
+            // Fungsi untuk membuka modal
+            function openModal() {
+                document.getElementById("loginModal").style.display = "block";
+            }
+    
+            // Fungsi untuk menutup modal
+            function closeModal() {
+                document.getElementById("loginModal").style.display = "none";
+            }
+        </script>
+
+        </body>
+        </html>
+
+       
